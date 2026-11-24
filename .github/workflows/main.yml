@@ -11,7 +11,7 @@ jobs:
   solve:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-    container: openmodelica/openmodelica:v1.23.1-minimal
+    container: openmodelica/openmodelica:v1.27.1-minimal
     env:
       DAY: ${{ inputs.day }}
     steps:
