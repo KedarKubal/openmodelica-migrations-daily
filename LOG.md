@@ -1,0 +1,1 @@
+2026-11-26 | System Identification and Controller Design for Hydraulic Actuator | MATLAB/Simulink Simscape | status=UNVALIDATED | note: approx migration of Moog EHA nonlinear model with PID; discrepancies flagged

@@ -1,0 +1,5 @@
+loadModel(Modelica);
+loadFile("model/EHASystem.mo");
+simulate(EHASystem, startTime=0, stopTime=5, method="dassl", tolerance=1e-6, outputFormat="csv", numberOfIntervals=5000);
+getErrorString();
+system("mv -f EHASystem_res.csv result.csv");
