@@ -1,1 +1,2 @@
 2026-11-26 | System Identification and Controller Design for Hydraulic Actuator | MATLAB/Simulink Simscape | status=UNVALIDATED | note: approx migration of Moog EHA nonlinear model with PID; discrepancies flagged
+2026-11-27 | Analysis and Improvement of the Dynamic Characteristics of an Electro-Hydrostatic Actuator Based on a Vehicle’s Active Suspension | MATLAB/Simulink | status=UNVALIDATED | note: EHA plant + ASSUMPTION PID; Table 3 settling/overshoot targets; gains unpublished so discrepancy flagged
