@@ -1,0 +1,5 @@
+loadModel(Modelica);
+loadFile("model/DCMotorPID.mo");
+simulate(DCMotorPID, startTime=0, stopTime=5, method="dassl", tolerance=1e-6, outputFormat="csv");
+system("mv -f DCMotorPID_res.csv result.csv");
+getErrorString();
